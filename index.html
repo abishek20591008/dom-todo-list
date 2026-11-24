@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My To-do List</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header class="app-header">
+      <p class="eyebrow">MAKE SPACE FOR WHAT MATTERS</p>
+      <h1>My To-do List</h1>
+      <p class="subtitle">Small steps make a big difference.</p>
+    </header>
+
+    <section class="task-panel" aria-labelledby="add-heading">
+      <h2 id="add-heading">Add a task</h2>
+      <form id="task-form" novalidate>
+        <label for="task-input">What do you need to do?</label>
+        <div class="form-row">
+          <input id="task-input" name="task" type="text" maxlength="80"
+                 placeholder="e.g. Finish my assignment" autocomplete="off">
+          <button type="submit">Add task</button>
+        </div>
+        <p id="form-error" class="error-message" role="alert" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="list-panel" aria-labelledby="list-heading">
+      <div class="list-heading-row">
+        <div>
+          <h2 id="list-heading">Your tasks</h2>
+          <p id="task-count" class="task-count">0 tasks left</p>
+        </div>
+        <button id="clear-completed" class="text-button" type="button">Clear completed</button>
+      </div>
+
+      <nav class="filters" aria-label="Filter tasks">
+        <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-button" type="button" data-filter="active" aria-pressed="false">Active</button>
+        <button class="filter-button" type="button" data-filter="completed" aria-pressed="false">Completed</button>
+      </nav>
+
+      <ul id="task-list" class="task-list"></ul>
+      <p id="empty-message" class="empty-message">No tasks yet. Add your first task above.</p>
+    </section>
+
+    <footer>Tasks are saved in this browser on this device.</footer>
+  </main>
+</body>
+</html>
