@@ -42,7 +42,7 @@ Open `index.html` in a browser, or use the Live Server extension in Visual Studi
 
 ## Links
 - Published application: https://abishek20591008.github.io/dom-todo-list/
-- Presentation video: ADD YOUR VIDEO URL HERE
+- Presentation video: https://drive.google.com/file/d/1jP2X19Uz0PwnWIhSREzVWzfrGfgQ5q2M/view?usp=sharing
 - GitHub repository: https://github.com/abishek20591008/dom-todo-list.git
 
 ## Self-assessment
