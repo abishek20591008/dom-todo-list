@@ -43,7 +43,7 @@ Open `index.html` in a browser, or use the Live Server extension in Visual Studi
 ## Links
 - Published application: https://abishek20591008.github.io/dom-todo-list/
 - Presentation video: ADD YOUR VIDEO URL HERE
-- GitHub repository: ADD YOUR REPOSITORY URL HERE
+- GitHub repository: https://github.com/abishek20591008/dom-todo-list.git
 
 ## Self-assessment
 The application meets the main requirements: users can add tasks, invalid input is rejected with an error message, tasks can be completed and deleted, and tasks are saved in localStorage. The application also includes task filters, an open-task counter, and a clear-completed button.
