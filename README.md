@@ -41,7 +41,7 @@ My To-do List is a small browser application for writing down tasks, marking the
 Open `index.html` in a browser, or use the Live Server extension in Visual Studio Code.
 
 ## Links
-- Published application: ADD YOUR GITHUB PAGES URL HERE
+- Published application: https://abishek20591008.github.io/dom-todo-list/
 - Presentation video: ADD YOUR VIDEO URL HERE
 - GitHub repository: ADD YOUR REPOSITORY URL HERE
 
